@@ -1,0 +1,34 @@
+# --- OS JUNK ---
+.DS_Store
+.vscode/
+
+# --- PYTHON (For Docker/SQL section) ---
+__pycache__/
+*.pyc
+.env
+.venv/
+env/
+
+# --- TERRAFORM (For Infra section) ---
+# The .terraform folder contains binaries - never commit it!
+**/.terraform/
+
+# State files contain secrets - never commit them!
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Crash logs
+crash.log
+
+# Exclude all .tfvars files (Likely contain passwords/keys)
+*.tfvars
+*.tfvars.json
+.terraform.tfstate.lock.info
+
+# --- GOOGLE CLOUD KEYS ---
+# Catch-all for any JSON key files anywhere in the repo
+*key.json
+*creds.json
+*credentials.json
+gcp-keys/

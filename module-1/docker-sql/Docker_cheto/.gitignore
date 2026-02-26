@@ -1,0 +1,29 @@
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- Ignorar los entornos virtuales ---
+.venv/
+venv/
+env/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- Datos ---
+*.parquet
+*.csv
+*.csv.gz
+data/
+
+# --- Configuración de IDE y Sistema ---
+.vscode/
+.idea/
+.DS_Store 
+
+# --- Docker ---
+postgres_data/
+pgadmin_data/
+
+# --- Seguridad ---
+.env
