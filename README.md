@@ -16,3 +16,4 @@ My solutions and learning journey for the Data Engineering Zoomcamp by DataTalks
 * **Terraform:** Provisioning GCS Buckets and BigQuery Datasets
 * **SQL:** Analysis of NYC Green Taxi Data (Nov 2025)
 
+work in progress...
